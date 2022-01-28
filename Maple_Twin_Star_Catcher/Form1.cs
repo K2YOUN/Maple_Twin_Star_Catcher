@@ -38,7 +38,7 @@ namespace magnifier
 
         private void button1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (e.KeyChar == '+')
+            if (e.KeyChar == '`')
             {
                 int mouse_x = MousePosition.X;
                 int mouse_y = MousePosition.Y;
@@ -73,7 +73,7 @@ namespace magnifier
 
 
             }
-            else if (e.KeyChar == '-')
+            else if (e.KeyChar == 27)
             {
                 button2_Click(null, null);
             }
